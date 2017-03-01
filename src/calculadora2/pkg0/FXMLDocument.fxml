@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="261.0" prefWidth="319.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="calculadora2.pkg0.FXMLDocumentController">
+   <children>
+      <TextField fx:id="pantalla" layoutX="14.0" layoutY="14.0" prefHeight="80.0" prefWidth="289.0" />
+      <Button fx:id="siete" layoutX="14.0" layoutY="104.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="7" />
+      <Button fx:id="ocho" layoutX="74.0" layoutY="104.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="8" />
+      <Button fx:id="tres" layoutX="134.0" layoutY="206.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="3" />
+      <Button fx:id="dos" layoutX="74.0" layoutY="206.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="2" />
+      <Button fx:id="cinco" layoutX="74.0" layoutY="155.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="5" />
+      <Button fx:id="nueve" layoutX="134.0" layoutY="104.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="9" />
+      <Button fx:id="cuactro" layoutX="14.0" layoutY="155.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="4" />
+      <Button fx:id="uno" layoutX="14.0" layoutY="206.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="1" />
+      <Button fx:id="seis" layoutX="134.0" layoutY="155.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="6" />
+      <Button fx:id="mas" layoutX="194.0" layoutY="104.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="+" />
+      <Button fx:id="menos" layoutX="254.0" layoutY="104.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="-" />
+      <Button fx:id="dividir" layoutX="254.0" layoutY="155.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="/" />
+      <Button fx:id="multiplicar" layoutX="194.0" layoutY="155.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="x" />
+      <Button fx:id="igual" layoutX="194.0" layoutY="206.0" mnemonicParsing="false" onAction="#calcular" prefHeight="41.0" prefWidth="111.0" text="=" />
+   </children>
+</AnchorPane>
