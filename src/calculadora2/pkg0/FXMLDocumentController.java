@@ -11,46 +11,42 @@ import javafx.scene.control.TextField;
 
 public class FXMLDocumentController implements Initializable {
     @FXML
-    private TextField pantalla;
+    private TextField field1;
     @FXML
-    private Button siete;
+    private TextField field2;
     @FXML
-    private Button ocho;
+    private Button botonSumar;
     @FXML
-    private Button tres;
+    private Button botonPorcentaje;
     @FXML
-    private Button dos;
+    private Button botonElevar;
     @FXML
-    private Button cinco;
+    private Button botonDivir;
     @FXML
-    private Button nueve;
-    @FXML
-    private Button cuactro;
-    @FXML
-    private Button uno;
-    @FXML
-    private Button seis;
-    @FXML
-    private Button mas;
-    @FXML
-    private Button menos;
-    @FXML
-    private Button dividir;
-    @FXML
-    private Button multiplicar;
-    @FXML    
-    private Button igual;
-    
-        
-    @FXML
-    private void calcular(ActionEvent event) {
-    }
+    private TextField fieldResultado;
     
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void operacionSumar(ActionEvent event) {
+        
+    }
+
+    @FXML
+    private void operacionPorcentaje(ActionEvent event) {
+    }
+
+    @FXML
+    private void operacionElevar(ActionEvent event) {
+    }
+
+    @FXML
+    private void operacionDividir(ActionEvent event) {
+    }
 
     
 }

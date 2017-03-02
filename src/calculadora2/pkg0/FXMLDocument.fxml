@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="261.0" prefWidth="319.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="calculadora2.pkg0.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="389.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadora2.pkg0.FXMLDocumentController">
    <children>
-      <TextField fx:id="pantalla" layoutX="14.0" layoutY="14.0" prefHeight="80.0" prefWidth="289.0" />
-      <Button fx:id="siete" layoutX="14.0" layoutY="104.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="7" />
-      <Button fx:id="ocho" layoutX="74.0" layoutY="104.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="8" />
-      <Button fx:id="tres" layoutX="134.0" layoutY="206.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="3" />
-      <Button fx:id="dos" layoutX="74.0" layoutY="206.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="2" />
-      <Button fx:id="cinco" layoutX="74.0" layoutY="155.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="5" />
-      <Button fx:id="nueve" layoutX="134.0" layoutY="104.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="9" />
-      <Button fx:id="cuactro" layoutX="14.0" layoutY="155.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="4" />
-      <Button fx:id="uno" layoutX="14.0" layoutY="206.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="1" />
-      <Button fx:id="seis" layoutX="134.0" layoutY="155.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="6" />
-      <Button fx:id="mas" layoutX="194.0" layoutY="104.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="+" />
-      <Button fx:id="menos" layoutX="254.0" layoutY="104.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="-" />
-      <Button fx:id="dividir" layoutX="254.0" layoutY="155.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="/" />
-      <Button fx:id="multiplicar" layoutX="194.0" layoutY="155.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="50.0" text="x" />
-      <Button fx:id="igual" layoutX="194.0" layoutY="206.0" mnemonicParsing="false" onAction="#calcular" prefHeight="41.0" prefWidth="111.0" text="=" />
+      <Label layoutX="69.0" layoutY="54.0" prefHeight="17.0" prefWidth="64.0" text="número 1">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="292.0" layoutY="54.0" prefHeight="17.0" prefWidth="64.0" text="número 2">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="field1" layoutX="69.0" layoutY="82.0" />
+      <TextField fx:id="field2" layoutX="292.0" layoutY="82.0" />
+      <Button fx:id="botonSumar" layoutX="69.0" layoutY="133.0" mnemonicParsing="false" onAction="#operacionSumar" text="sumar" />
+      <Button fx:id="botonPorcentaje" layoutX="145.0" layoutY="133.0" mnemonicParsing="false" onAction="#operacionPorcentaje" text="porcentaje" />
+      <Button fx:id="botonElevar" layoutX="292.0" layoutY="133.0" mnemonicParsing="false" onAction="#operacionElevar" text="elevar a" />
+      <Button fx:id="botonDivir" layoutX="389.0" layoutY="133.0" mnemonicParsing="false" onAction="#operacionDividir" text="dividir" />
+      <TextField fx:id="fieldResultado" layoutX="188.0" layoutY="183.0" />
+      <Label layoutX="124.0" layoutY="187.0" text="Resultado">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
